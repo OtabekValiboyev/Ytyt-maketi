@@ -15,6 +15,7 @@ body {
   display: flex;
   flex-direction: column;
   font-family: 'Roboto', 'Arial', sans-serif;
+  color: #22253b;
   background-color: rgb(173, 216, 230, 0.3);
 }
 
