@@ -47,6 +47,7 @@ body {
   padding-bottom: 8px;
   padding-right: 16px;
   padding-left: 27px;
+  cursor: pointer;
   background-image: url(../img/Group\ 2.png);
   background-repeat: no-repeat;
   background-position: left 15px center;
