@@ -14,7 +14,7 @@ body {
   height: 100%;
   display: flex;
   flex-direction: column;
-  font-family: 'Roboto', 'Arial', sans-serif;
+  font-family: 'Arial', sans-serif;
   color: #22253b;
   background-color: rgb(173, 216, 230, 0.3);
 }
@@ -159,4 +159,68 @@ body {
   font-weight: 400;
   line-height: 104.4%;
   text-decoration: none;
+}
+
+
+/* SITE-HERO */
+.hero {
+  padding-top: 70px;
+  padding-bottom: 60px;
+}
+
+.hero-container {
+  background-image: url(../img/Layer\ 2.png);
+  background-repeat: no-repeat;
+  background-position: right top;
+  padding-bottom: 40px;
+}
+
+.hero-heading {
+  margin-top: 0;
+  margin-bottom: 46px;
+  width: 100%;
+  max-width: 638px;
+  color: #22253B;
+  font-family: Gilroy;
+  font-size: 46px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 46px;
+  /* 100% */
+}
+
+.hero-heading span {
+  color: #F15525;
+  font-size: 46px;
+  font-weight: 400;
+  line-height: 46px;
+}
+
+.hero-text {
+  margin-top: 0;
+  margin-bottom: 18px;
+  width: 100%;
+  max-width: 380px;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 23px;
+}
+
+
+
+/* RETINA BG */
+@media only screen and (-webkit-min-device-pixel-ratio: 2),
+only screen and (min--moz-device-pixel-ratio: 2),
+only screen and (-o-min-device-pixel-ratio: 2/1),
+only screen and (min-device-pixel-ratio: 2),
+only screen and (min-resolution: 192dpi),
+only screen and (min-resolution: 2dppx) {
+  .button-small {
+    background-image: url(../img/Group\ 2@2x.png);
+  }
+
+  .hero-container {
+    background-image: url(../img/Layer\ 2@2x.png);
+  }
 }
