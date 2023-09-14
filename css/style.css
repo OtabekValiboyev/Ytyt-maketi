@@ -61,6 +61,34 @@ body {
   opacity: 0.6;
 }
 
+.button {
+  display: inline-block;
+  text-decoration: none;
+  cursor: pointer;
+  padding-top: 28px;
+  padding-bottom: 28px;
+  padding-right: 75px;
+  padding-left: 45px;
+  border-radius: 82px;
+  background-color: #f15525;
+  color: #fff;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 96.688%;
+  letter-spacing: -0.6px;
+  background-image: url(../img/Arrow\ 1.png);
+  background-repeat: no-repeat;
+  background-position: right 50px center;
+}
+
+.button:hover {
+  opacity: 0.8;
+}
+
+.button:active {
+  opacity: 0.6;
+}
+
 
 /* SITE-HEADER */
 .header {
