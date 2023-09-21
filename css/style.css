@@ -208,6 +208,185 @@ body {
 }
 
 
+/* TECNALIGY */
+.tecnaligy {
+  padding-top: 103px;
+  padding-bottom: 84px;
+}
+
+.tecnaligy-container {}
+
+.tecnaligy-heading {
+  margin: 0;
+  margin-bottom: 35px;
+}
+
+.tecnaligy-inner {
+  display: flex;
+  align-items: center;
+  border-radius: 48px;
+  background-color: #fff;
+  padding-left: 122px;
+  padding-right: 104px;
+  padding-top: 42px;
+}
+
+.tecnaligy-img {
+  width: 407px;
+  height: 353px;
+  object-fit: contain;
+  margin-right: 60px;
+}
+
+.tecnaligy-right {}
+
+.tecnaligy-right-services-wrapper {
+  display: flex;
+}
+
+.tecnaligy-right-services-wrapper:not(:last-child) {
+  margin-bottom: 11px;
+}
+
+.tecnaligy-right-services-wrapper:last-child {
+  margin-bottom: 25px;
+}
+
+.tecnaligy-right-services-wrapper span {
+  display: inline-block;
+  border-radius: 44px;
+  padding-top: 14px;
+  padding-bottom: 13px;
+  color: #fff;
+  text-align: center;
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.pyton {
+  padding-left: 16px;
+  padding-right: 16px;
+  margin-right: 10px;
+  background-color: #5096ff;
+}
+
+.cet {
+  padding-left: 15px;
+  padding-right: 15px;
+  background-color: #ffb359;
+}
+
+.baza {
+  padding-left: 18px;
+  padding-right: 18px;
+  margin-right: 10px;
+  background-color: #ff6f50;
+}
+
+.django {
+  padding-left: 24px;
+  padding-right: 24px;
+  background-color: #4bd071;
+}
+
+.test {
+  padding-left: 26px;
+  padding-right: 26px;
+  margin-right: 10px;
+  background-color: #50c0ff;
+}
+
+.docker {
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-right: 10px;
+  background-color: #4b77b9;
+}
+
+.git {
+  padding-left: 18px;
+  padding-right: 18px;
+  background-color: #af93ff;
+}
+
+.tecnaligy-right-text {
+  margin: 0;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 25px;
+}
+
+/* NUMBERS */
+.numbers {
+  padding-top: 30px;
+  padding-bottom: 26px;
+}
+
+.numbers-container {
+  background-color: #fff;
+  border-radius: 40px;
+  box-shadow: 0px 81px 120px -77px rgba(34, 37, 59, 0.04);
+}
+
+.numbers-list {
+  display: flex;
+  margin: 0;
+  padding: 0;
+  padding-left: 53px;
+  list-style: none;
+  counter-reset: numbers;
+}
+
+.numbers-item {
+  counter-increment: numbers;
+}
+
+.numbers-item:not(:last-child) {
+  margin-right: 58px;
+}
+
+.item-inner {
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 56px;
+  padding-top: 56px;
+  padding-right: 66px;
+}
+
+.item-inner::before {
+  display: block;
+  content: "0" counter(numbers);
+  color: #38BFF2;
+  font-family: Gilroy;
+  font-size: 77px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 30px;
+  margin-bottom: 26px;
+}
+
+.item-heading {
+  margin-top: 0;
+  margin-bottom: 19px;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 30px;
+  min-width: 267px;
+}
+
+.item-text {
+  margin: 0;
+  font-family: Gilroy;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 23px;
+}
+
+
 
 /* RETINA BG */
 @media only screen and (-webkit-min-device-pixel-ratio: 2),
